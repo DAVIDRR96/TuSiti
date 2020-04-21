@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".iniciosesion1"
+    android:background="#7798ff">
+
+    <ImageView
+        android:id="@+id/im"
+        android:layout_width="131dp"
+        android:layout_height="122dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/mu"></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:layout_below="@id/im"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/im"
+    android:layout_marginTop="50dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCorreo"
+            android:hint="Email"
+            android:textAlignment="center"
+            android:textColorHint="#ffffff"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtContraseña"
+            android:hint="Password"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:layout_below="@id/txtCorreo"
+            android:textColorHint="#ffffff"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnIngresa"
+        android:text="Iniciar Sesión"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtContraseña"
+        android:background="#33cd77"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>
+
+
+</ScrollView>
+
+</RelativeLayout>

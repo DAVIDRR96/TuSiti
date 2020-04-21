@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cerrarsesion"
+    android:background="#7798ff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="¿Seguro que desea salir?"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Salir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="#33cd77"
+        android:text="Salir"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/Volverinicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="#33cd77"
+        android:text="Volver al inicio"
+        android:textColor="#ffffff"/>
+
+
+</RelativeLayout>

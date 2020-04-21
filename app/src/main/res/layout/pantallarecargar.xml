@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PantallaRecargar"
+    android:background="#7798ff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="MI SALDO:"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="60dp"
+        android:id="@+id/tvMiSaldo"
+        android:text="20.000"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="ÚLTIMO MOVIMIENTO:"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/tvUltimoMovimiento"
+        android:layout_marginTop="140dp"
+        android:text="02/04/2020"
+        android:textColor="#ffffff"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Recargar"
+        android:id="@+id/btnRecar"
+        android:layout_marginTop="180dp"
+        android:background="#33cd77"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>
